@@ -1,0 +1,40 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header-logo {
+    margin-left: 40px;
+    width: 200px;
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color: #3C40C6;
+}
+
+#nav-menu {
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: 45%
+}
+
+nav a {
+    padding: 4px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #3C40C6;
+}
