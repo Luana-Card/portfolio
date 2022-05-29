@@ -6,20 +6,23 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+
+/* HEADER */
+
 #header-logo {
     margin-left: 40px;
     width: 200px;
+    cursor: pointer;
+    height: 13vh;
 }
 
 .header {
-    height: 90px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* flex-wrap: wrap; */
     background-color: #3C40C6;
-    position: fixed;
+    /* position: fixed; */
 }
 
 #nav-menu {
@@ -34,10 +37,66 @@
 nav a {
     padding: 4px;
     border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;   
+    color: inherit;  
 }
 
 nav a:hover {
     background-color: #ffffff;
-    color: #3C40C6;
+    color: #3c40c6;
+    text-decoration: none;
 }
 
+.main {
+    height: 87vh;
+}
+
+
+/* HOME PAGE */
+
+#home-page {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#identification {
+    margin-top: 50px;
+}
+
+#technologies {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+}
+
+.tech-icon {
+    width: 4%;
+}
+
+button {
+    margin-top: 50px;
+    background-color: #3c40c6;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 100%;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #3C40C6;
+    border: 2px solid #3C40C6;
+    cursor: pointer;
+}
+
+.line  {
+    width: 100%;
+    border-bottom: 8px dotted #3C40C6;;
+}
