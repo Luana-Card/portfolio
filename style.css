@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Hammersmith One', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* HEADER */
 
@@ -38,8 +41,11 @@ nav a {
     padding: 4px;
     border-radius: 8px;
     cursor: pointer;
-    text-decoration: none;   
-    color: inherit;  
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 nav a:hover {
@@ -53,6 +59,7 @@ nav a:hover {
 }
 
 
+
 /* HOME PAGE */
 
 #home-page {
@@ -64,6 +71,7 @@ nav a:hover {
 }
 
 #identification {
+    font-size: 1.3em;
     margin-top: 50px;
 }
 
@@ -96,7 +104,89 @@ button:hover {
     cursor: pointer;
 }
 
-.line  {
+.white-line  {
     width: 100%;
-    border-bottom: 8px dotted #3C40C6;;
+    /* border-bottom: 8px dotted #3C40C6; */
+    border-bottom: 8px dotted #ffffff;
+}
+
+
+
+/* ABOUT ME */
+
+#about-me {
+    width: 100%;
+    height: 93vh;
+    background-color: #3C40C6;
+    padding: 15px;
+}
+
+.section-title-circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    font-size: 1.7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 2px; 
+}
+
+#about-me-top-content {
+    /* margin: 0 200px ; */
+    width: 60%;
+    /* border-radius: 8px; */
+    height: 15vh;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* opacity: 50%; */
+    /* color: #FFFFFF;
+    padding: 25px;
+    text-align: justify;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center; */
+}
+
+.about-me-content {
+    color: #FFFFFF;
+    padding: 25px;
+    text-align: justify;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    border-left: 5px solid #FFFFFF ;
+}
+
+#first-about-me-sub-section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#second-about-me-sub-section {
+    width: 100%;
+    height: 50vh;
+    margin-top: 30px;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-part {
+    width: 400px;
+    height: 200px;
 }
