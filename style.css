@@ -83,8 +83,21 @@ nav a:hover {
     gap: 30px;
 }
 
+.tech-item {
+    /* background-color: #3C40C6; */
+    border: 2px solid #3C40C6;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .tech-icon {
-    width: 4%;
+    width: 45px;
 }
 
 button {
