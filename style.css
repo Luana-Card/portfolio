@@ -57,7 +57,6 @@ header a:hover {
 }
 
 /* HOME-PAGE */
-
 #home .container {
     height: 85vh;
     display: flex;
@@ -116,6 +115,74 @@ button a:hover{
 }
 
 /* ABOUT ME */
-#about-me .container {
-    height: 100vh;
+.white-line-decoration {
+    width: 100vw;
+    padding: 1vh;
+    border-bottom: 8px dotted #ffffff;
 }
+
+#about-me .container {
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #3C40C6;
+}
+
+#about-me .container-top {
+    display: flex;
+    flex: row;
+    padding: 15px;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+
+#about-me .title-circle {
+    border-left: 8px solid #000000;
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    font-size: 1.7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-me-content {
+    background-color: white;
+    border-radius: 8px;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    padding: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.container-top .about-me-content {
+    width: 60vw;
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-bottom .about-me-content {
+    width: 40vw;
+    height: 30vh;
+}
+
