@@ -256,12 +256,30 @@ button a:hover{
     border-radius: 50%;
     width: 90px;
     height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 .contact-icon:hover {
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
+
+.social-icon:hover {
+    width: 70px;
+    height: 70px;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+}
+
 
 /* FOOTER */
 
@@ -273,3 +291,15 @@ footer {
     justify-content: space-around;
     color: #ffffff;
 }
+
+
+/* border-left: 8px solid #000000;
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    font-size: 1.7em;
+
+    display: flex;
+    */
