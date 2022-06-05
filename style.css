@@ -217,13 +217,14 @@ article {
     display: flex;
     flex: row;
     padding: 15px;
-    justify-content: space-evenly;
     align-items: center;
+    gap: 50px;
 }
 
 #projects .line-decoration {
     border-color: #FFFFFF;
     width: 70vw;
+    padding: 1vh;
 }
 
 #projects .title-circle {
@@ -265,9 +266,8 @@ article {
 }
 
 .change-cards:hover {
-    background-color: #3C40C6;
     box-shadow: 0 5px 5px #333333;
-    color: #FFFFFF;
+    color: #3C40C6;
 }
 
 /* CONTATO */
